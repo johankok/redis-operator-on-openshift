@@ -14,5 +14,5 @@ rules:
     apiGroups:
       - redis.redis.opstreelabs.in
     resources:
-      - redisreplication
-      - redissentinel
+      - redisreplications
+      - redissentinels
