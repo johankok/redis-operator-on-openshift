@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: installation/argocd
-    repoURL: 'git@github.com:johankok/redis-operator-on-openshift.git'
+    repoURL: 'https://github.com/johankok/redis-operator-on-openshift.git'
     targetRevision: main
   syncPolicy:
     automated:
