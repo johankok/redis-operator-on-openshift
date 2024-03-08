@@ -4,7 +4,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 namespace: redis-operator
 
 resources:
-  - namespace.yaml
-  - operatorgroup.yaml
-  - subscription.yaml
-  - hotfix-operator-permissions
+  - clusterrole.yaml
+  - clusterrolebinding.yaml
