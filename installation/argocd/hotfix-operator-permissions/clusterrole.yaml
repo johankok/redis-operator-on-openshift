@@ -16,3 +16,18 @@ rules:
     resources:
       - redisreplications
       - redissentinels
+  - verbs:
+      - get
+      - patch
+      - update
+    apiGroups:
+      - redis.redis.opstreelabs.in
+    resources:
+      - redisclusters/status
+  - apiGroups:
+      - ""
+    resources:
+      - events
+    verbs:
+      - create
+      - patch
